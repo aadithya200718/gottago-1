@@ -92,16 +92,6 @@ export default function HomePage() {
       </nav>
 
       <section className="relative z-10 px-6 pt-16 pb-20 max-w-4xl mx-auto text-center">
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          className="inline-flex items-center gap-2 rounded-full border border-brand-primary/30 bg-brand-primary/10 px-4 py-1.5 text-xs font-medium text-brand-primary mb-6"
-        >
-          <Zap className="h-3 w-3" />
-          Guidewire DevTrails 2026 - Phase 2: Protect Your Worker
-        </motion.div>
-
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -228,7 +218,7 @@ export default function HomePage() {
             <Shield className="h-4 w-4 text-brand-primary" />
             <span>GottaGO</span>
           </div>
-          <span>Built for Guidewire DevTrails 2026</span>
+          <span>Parametric income protection for delivery workers</span>
         </div>
       </footer>
     </div>
